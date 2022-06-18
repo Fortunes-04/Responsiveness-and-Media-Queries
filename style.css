@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+    font-size: 16px;
+    font-family: Poppins;
+    color: white;
+    
+}
+
+.container {
+     padding-left: 50px;
+     justify-content: center;
+     align-items: center;
+     margin: 50px 30px;
+     
+}
+
+span {
+    color: crimson;
+    font-weight: bold;
+}
+
+.registration-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.registration-form .box {
+    background-color: hsl(248, 32%, 49%);
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px;    
+}
+.input-box{
+    background: white;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    margin: 10px;
+
+}
+.input-box input {
+    padding: 15px 10px;
+    width: 90%;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(252, 248, 248);
+    outline: none;
+    margin: 5px;
+    
+    
+}
+.input-box p {
+    color: gray;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+
+}
+.registration-form button {
+    color: rgb(255, 255, 255);
+    background-color: hsl(154, 59%, 51%);
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 10px;
+    width: 100%;
+    margin: 20px 0;
+    outline: none;
+}
+
+div h1 {
+    color: white;
+    font-family: Poppins;
+    font-weight: 700;
+    
+}
+div p {
+    color: white;
+    font-family: Poppins;
+    font-size: 300;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 700px;) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+}
